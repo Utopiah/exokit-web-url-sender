@@ -1,6 +1,8 @@
 # exokit-web-url-sender
 Avoiding having to use the CLI (or even Windows) to try content on the ML1
 
+![](https://fabien.benetou.fr/pub/home/WebARFOSDEM2019/nocli.gif)
+
 Video demo https://www.youtube.com/watch?v=PnI-xoSIEDs
 
 This simple tool is to be managed by the workshop lead, not participants. Participants only have to connect to the webpage to get their content loaded on the connected ML1.
