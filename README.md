@@ -1,4 +1,4 @@
-# exokit-web-url-sender
+ ()# exokit-web-url-sender
 Avoiding having to use the CLI (or even Windows) to try content on the ML1
 
 ![](https://fabien.benetou.fr/pub/home/WebARFOSDEM2019/nocli.gif)
@@ -7,7 +7,7 @@ Video demo https://www.youtube.com/watch?v=PnI-xoSIEDs
 
 This simple tool is to be managed by the workshop lead, not participants. Participants only have to connect to the webpage to get their content loaded on the connected ML1.
 
-1. install mldb.exe from Magic Leap
+1. install mldb.exe from Magic Leap (note that the SDK is optional)
 1. clone this repository
 1. `npm install`
 1. edit `index.js` to fix your `mldb.exe` path 
@@ -16,6 +16,8 @@ This simple tool is to be managed by the workshop lead, not participants. Partic
 1. share that URL to workshop participants
 
 ## To improve
+- distinct configuration file
+- manage over TCP by providing an IP address
 - integrate directly in exokit
 - better error handling
 - managing blocking to enable multiple users to avoid overlap
