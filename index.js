@@ -12,6 +12,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 //app.use(express.bodyParser());
 
+app.get('/send', function(req, res){
+  res.send('url: ' + req.query.url);
+});
+
 app.post('/myaction', function(req, res) {
 
   shell.cd(mypath)
@@ -25,5 +29,5 @@ app.post('/myaction', function(req, res) {
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.listen(8080, function() {
-  console.log('Server running at http://127.0.0.1:8080/');
+  console.log('Server running at http://127.0.0.1:8080/ and beyond');
 });
