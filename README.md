@@ -16,6 +16,13 @@ This simple tool is to be managed by the workshop lead, not participants. Partic
 1. `npm run start`
 1. open in a browser http://127.0.0.1:8080 (or your IP address)
 1. share that URL to workshop participants
+1. optionally share instead the code snippet to participants to have a send to ML button (make sure it's with the remote IP address)
+
+## Details on code snippet embedding
+- share a code snippet accessible from the participant machine e.g. `<script src="http://192.168.1.10:8080/snippet.js"></script>`
+not `<script src="http://127.0.0.1:8080/snippet.js"></script>` or `<script src="http://localhost:8080/snippet.js"></script>`.
+- double check that your firewall is not blocking the connection which is the case by default with Windows Linux Subsystem.
+- if you do not provide https access (currently the case) then visit the hosting page in http to avoid blocked content
 
 ## To improve
 - distinct configuration file
